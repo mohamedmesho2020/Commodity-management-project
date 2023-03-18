@@ -1,0 +1,115 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color: #222;
+    color: white;
+}
+.crud{
+    width: 80%;
+    margin: auto;
+
+}
+
+.head{
+ 
+    text-transform: uppercase;
+    text-align: center;
+    margin: 10px 0;
+}
+
+
+input{
+    width: 100%;
+    height: 30px;
+    border: none;
+    outline: none;
+    background-color: #111;
+    color: white;
+    text-transform: uppercase;
+    margin: 4px 0;
+    border-radius: 4px;
+    padding: 4px;
+
+}
+
+input:hover{
+    transform: scale(1.1);
+    background-color: #000;
+}
+
+
+.price input{
+    width:20% ;
+    margin-right: 15px;
+}
+
+.price input:hover{
+    transform: scale(1.1);
+}
+
+#total{
+    background-color: rgb(198, 16, 16);
+    padding: 5px 2px;
+    border-radius: 4px;
+}
+
+#total::before{
+    content: 'tatal:';
+}
+
+button{
+    width: 100%;
+    height: 30px;
+    background-color: rgb(130, 16, 237);
+color: white;
+text-transform: capitalize;
+border: none;
+transition: .5s;
+border-radius: 20px;
+
+
+}
+
+button:hover{
+    background-color: rgb(156, 65, 243);
+  
+    letter-spacing: 3px;
+    font-size:1rem;
+}
+
+
+.btnsearch button{
+    width: 40%;
+}
+.btnsearch{
+    display: flex;
+    justify-content: space-between;
+
+}
+
+
+table{
+    width: 100%;
+    text-align: center;
+    margin: 10px 0;
+    
+}
+
+
+table th{
+    text-transform: uppercase;
+}
+
+
+ tr td{
+    padding: 4px;
+}
+
+
+#deleteAll{
+    margin: 20px 0;
+}
